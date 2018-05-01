@@ -1,24 +1,18 @@
-# README
+THP Project DAY 22
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Contient l'exercire :
 
-* Ruby version
+The Hacking Gossip : première version
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+Contact slack
 
-* Database initialization
+Miguel Sorin : @Jayware
 
-* How to run the test suite
+Léo Deboin : @LeoD
 
-* Services (job queues, cache servers, search engines, etc.)
+Léo LEGOFF : @Lordkayseur
 
-* Deployment instructions
-
-* ...
+Merci bisous partout les loulous.
