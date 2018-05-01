@@ -1,0 +1,13 @@
+<h1> Editer le gossip du loulou <%= @gossip.anonymous_author %> </h1>
+
+
+
+<%= form_for @gossip do|gossip| %>
+
+
+	<label> Contenu du gossip: </label> </br>
+	<%= gossip.text_area :content, class: 'form_control' %>
+	<div class="form-group">
+	<button type="submit">Modifier</button>
+	</div>
+	<%end %>

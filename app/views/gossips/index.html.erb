@@ -1,0 +1,5 @@
+<h1> Coucou les petits fous voici tout les petits potins de THP <3 </h1>
+
+<% @gossips.each do |gossip| %>
+    <p> Potin de <%= gossip.anonymous_author %> qui nous dis que: </br>  <%= gossip.content %></p>
+<% end %>
