@@ -2,4 +2,5 @@
 
 <% @gossips.each do |gossip| %>
     <p> Potin de <%= gossip.anonymous_author %> qui nous dis que: </br>  <%= gossip.content %></p>
+    <a href=" <%= edit_gossip_path(gossip.id) %>"> Editer</a>
 <% end %>

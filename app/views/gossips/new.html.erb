@@ -1,0 +1,15 @@
+<h1> Nouveau Potin ! :</h1>
+
+
+
+<%= form_for @gossip do|gossip| %>
+	<label> Auteur du Gossip:</label></br>
+	<%= gossip.text_field :anonymous_author, class: 'form_control' %></br>
+
+	<label> Contenu du Gossip: </label> </br>
+
+	<%= gossip.text_area :content, class: 'form_control' %>
+	<div class="form-group">
+	<button type="submit">Créer</button>
+	</div>
+	<%end %>
